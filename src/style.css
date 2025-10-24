@@ -1,0 +1,55 @@
+body {
+  background: rgb(255, 227, 232);
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: rgb(98, 96, 96);
+  text-align: center;
+}
+header {
+  margin-bottom: 30px;
+}
+
+form {
+  padding: 30px;
+  background-color: rgb(242, 178, 189);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 30px;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+.prompt {
+  padding: 12px;
+  border: 1px grey;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+}
+.button {
+  margin-left: 10px;
+  color: rgb(17, 15, 15);
+  background-color: rgb(231, 102, 125);
+  border: none;
+  border-radius: 10px;
+}
+.poem-text {
+  font-size: 16px;
+  padding: 20px;
+  line-height: 24px;
+  border-left: 3px solid rgb(146, 92, 101);
+}

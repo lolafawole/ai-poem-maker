@@ -7,40 +7,42 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of a poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Text goes here
-        <br />
-        Stuff goes here
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of a poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="button" />
+        </form>
+        <div class="poem-text">
+          Text goes here
+          <br />
+          Stuff goes here
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/lolafawole" target="_blank">Lola</a> and is
-      <a href="https://github.com/lolafawole/ai-poem-maker" target="_blank">
-        open-sourced on GitHub</a
-      >
-      and is
-      <a href="https://shecodesaipoem.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >.
-    </footer>
-
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/lolafawole" target="_blank">Lola</a> and is
+        <a href="https://github.com/lolafawole/ai-poem-maker" target="_blank">
+          open-sourced on GitHub</a
+        >
+        and is
+        <a href="https://shecodesaipoem.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
