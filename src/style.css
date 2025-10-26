@@ -14,11 +14,7 @@ header {
 }
 
 form {
-  padding: 30px;
-  background-color: rgb(242, 178, 189);
-  border-radius: 10px;
   display: flex;
-  margin-bottom: 30px;
 }
 
 footer {
@@ -52,4 +48,15 @@ footer {
   padding: 20px;
   line-height: 24px;
   border-left: 3px solid rgb(146, 92, 101);
+}
+.form-wrapper {
+  background-color: rgb(242, 178, 189);
+  margin-bottom: 30px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.hint {
+  font-size: 14px;
+  margin-top: 5px;
 }
